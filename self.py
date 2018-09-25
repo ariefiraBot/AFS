@@ -1139,7 +1139,7 @@ def bot(op):
                         if mention ['M'] in Bots:
                            aditmadzs.sendMessage(msg._from, wait["Respontag"])
                            aditmadzs.sendImageWithURL(msg._from,image)
-                           #aditmadzs.sendMessage(msg._from, None, contentMetadata={"STKID":"62560340","STKPKGID":"11895","STKVER":""}, contentType=7)
+                           #aditmadzs.sendMessage(msg._from, None, contentMetadata={"STKID":"51626504","STKPKGID":"11538","STKVER":"1"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentiongift"] == True:
